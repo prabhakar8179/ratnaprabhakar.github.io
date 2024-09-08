@@ -1,668 +1,403 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Prabhakar Majji</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" keywords="resume,Ratna,Prabhakar,fullstack,programmer,VR,java,javascript,angular,machine learning,software,engineer">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>My Profile</title><link rel="shortcut icon" href="img/profile.png">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- custom written CSS -->
+        <link rel="stylesheet" href="css/main.css">        
+            <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <!-- Piechart JS -->
+        <script type="text/javascript" src="js/piechart.js"></script>
+         <!-- Smooth scroll JS-->
+        <script type="text/javascript" src="js/smoothscroll.js"></script>
+         <!-- Custom JS-->
+        <script type="text/javascript" src="js/main.js"></script>
+        <!-- Fontawesome JS-->
+        <script src="https://use.fontawesome.com/8a24787c12.js"></script>
+        <!-- WOW JS-->
+        <script type="text/javascript" src="js/wow.js"></script>
+        
+        <!-- Preloader -->
+           <script type="text/javascript"> 
+    //<![CDATA[
+        $(window).on('load', function() { // makes sure the whole site is loaded 
+            $('#status').fadeOut(); // will first fade out the loading animation 
+            $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+            $('body').delay(350).css({'overflow':'visible'});
+          })
+    //]]>
+        </script>
+        
     
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    </head>
 
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
+    <body>
+    <!-- Preloader -->
+    <div id="preloader">
+            <div id="status">
+                <div class="status-mes"><h4>Setting up few thing for you</h4></div>
+            </div>
+    </div>
+
     
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Background video-->
+    <video muted autoplay loop poster="nat.mp4" class="bgvid">
+      <source src="video/nat.mp4" type="video/mp4">
+    </video>
 
-    <link rel="stylesheet" href="css/aos.css">
+             <!-- Static navbar -->
+        <nav class="navbar navbar-default navbar-fixed-top ">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#navbar" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                 
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav scroll-to navbar-left">
+                        <li><a  href="#experiences-section">Experience</a></li>
+                        <li><a  href="#skills">Skills</a></li>
+                        <li><a  href="#education-section">Education</a></li>
+                        <li><a  href="https://github.com/prabhakar8179" target="_blank">Portfolio</a></li>
+                        <li><a  href="#contact">Contact</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                         <li ><a  href="Ratna_CV_SDE.pdf" target="_blank" style="color:#00a5bb;"><span class="glyphicon glyphicon-log-in"></span> Download My Resume</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-    <link rel="stylesheet" href="css/ionicons.min.css">
-    
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
+      <!--img-service box-->
+       <section id="home" class="wow bounceInDown">
+            
+                <div class="container">
+                   <div class="row" data-sr='enter top' >
+                    <div class="col-sm-6 col-sm-offset-3 text-center"  style="position: absolute;top:20%;left:0%;">
+                        <div class="img-service-box" id="im1">
+                            <img   id="profile-pic" src="img\Ratna.jpg" width="250" height="250" class="img-circle " alt="profile picture" style="border:4px solid white;">
+                            <br>
+                            <h2 style="color: #00a5bb;">Software Development Engineer</h2>
+                            <p style="color: white;">
+                                Mastery in many and a genuine interest in all software technology with good work ethics and timeliness
+                            </p>
+                        </div>
+                    </div>
+                 </div>    
+               </div>
+        </section>
 
+      <!--experience section-->
+      <div id="exp-bg" >
+        <div class="wrapper container " >
+        <section id="experiences-section" class="experiences-section section">
+            <h2 class="section-title">Work Experiences</h2>
+            <div class="timeline">
+                
+                <div class="item">
+                    <div class="work-place">
+                        <h3 class="place">GE HealthCare</h3>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Bellevue, WA</div>
+                    </div>
+                    <div class="job-meta">
+                        <div class="title">Software Developer Intern</div>
+                        <div class="time">May.2023 - August.2023 </div>
+                    </div><!--//job-meta-->
+                    <div class="job-desc">
+<!--                         <p>TCS is a subsidiary of the American multinational conglomerate corporation General Electric</p>  -->
+                        <ul>
+                            
+                            <li>Building General Electric Healthcare (GEHC) infrastructure onto the AWS Cloud platform.</li>
+                            <li>Developing a converter that efficiently converts HL7V2 messages to FHIR type utilizing AWS Lambda to ensure no
+                                data loss.</li>
+                            <li>Implementing infra as code solutions using AWS CDK to deploy necessary AWS services effectively for our systems.</li>
+                            <li>Implementing and overseeing the setup of a GitLab pipeline to automate the deployment process for all microservices and
+                                infrastructure code, resulting in an 85% increase in deployment efficiency and enhanced developer productivity.</li>
 
-
-<style>
-
-/*======================================
-//--//-->   ABOUT
-======================================*/
-
-.about-mf .box-shadow-full {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
-.about-mf .about-img {
-  margin-bottom: 2rem;
-}
-
-.about-mf .about-img img {
-  margin-left: 10px;
-}
-
-
-.skill-mf .progress {
-  /* background-color: #cde1f8; */
-  margin: .5rem 0 1.2rem 0;
-  border-radius: 0;
-  height: .7rem;
-}
-
-.skill-mf .progress .progress-bar {
-  height: .7rem;
-  background-color: #ffbd39;
-}
-
-
-/* Animation styles */
-#typing-animation {
-  position: relative;
-  font-size: 30px;
-  font-weight: bold;
-  color: rgb(255, 255, 255);
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 3s steps(20, end) infinite;
-}
-
-#typing-animation:before {
-  content: "";
-  /* position: absolute; */
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background-color: #ccc;
-  animation: typing-cursor 0.5s ease-in-out infinite;
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-@keyframes typing-cursor {
-  from {
-    width: 5px;
-  }
-  to {
-    width: 0;
-  }
-}
-
-
-/* project image zoom effect */
-
-.zoom-effect {
-  overflow: hidden;
-  transition: transform 0.3s ease-out;
-}
-
-.zoom-effect:hover {
-  transform: scale(1.1);
-}
-
-
-</style>
-
-
-  </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-	  
-	  
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
-	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Prabhakar Majji</a>
-	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
-	      </button>
-
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav nav ml-auto">
-	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
-	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-			  <li class="nav-item"><a href="#experience" class="nav-link"><span>Experience</span></a></li>
-			  <li class="nav-item"><a href="#education" class="nav-link"><span>Education</span></a></li>
-	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
-	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
-	        </ul>
-	      </div>
-	    </div>
-	  </nav>
-	  <section id="home-section" class="hero">
-		  <div class="home-slider  owl-carousel">
-	       <div class="slider-item ">
-	      	<div class="overlay"></div>
-	         <div class="container">
-	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_1.png);">
-	          	 <div class="overlay"></div>
-	          	</div>
-		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-		          	<div class="text">
-		          		<span class="subheading">Hello!</span>
-			            <h1 class="mb-4 mt-3">I'm <span>Prabhakar Majji</span></h1>
-
-						<!-- Element to contain animated typing -->
-						<span id="typing-animation"></span>
-
-						<script>
-
-						// Initialize the typing animation
-						const typingAnimationElement = document.getElementById('typing-animation');
-
-						// Create an array of typing text
-						const typingTexts = [
-						'Software Developer',
-						'AWS Certified Developer',
-						'Scrum Master',
-						];
-
-						// Create a function to display the typing animation for a given text
-						function playTypingAnimation(text) {
-						// Loop through each character and add it to the element
-						for (let i = 0; i < text.length; i++) {
-							setTimeout(() => {
-							typingAnimationElement.textContent += text[i];
-							}, i * 200); // Increase the delay to slow down the typing animation
-						}
-
-						// Once the animation is complete, reset the text and start over
-						setTimeout(() => {
-							typingAnimationElement.textContent = '';
-							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
-						}, text.length * 200);
-						}
-
-						// Start the typing animation loop
-						playTypingAnimation(typingTexts[0]);
-
-						</script>
-
-						<br>
-						<br>
-			            <h2>A Software Developer</h2>
-						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 3 years of experience</h2> -->
-						<!-- <br> -->
-			            <p><a href="https://www.linkedin.com/in/prabhakarmajji/" class="btn btn-primary py-3 px-4">LinkedIn</a> 
-							<a href="https://github.com/prabhakar8179" class="btn btn-white btn-outline-white py-3 px-4">My Works</a></p>
-		            </div>
-		          </div>
-	        	</div>
-	        </div>
-	      </div>
-		</div>
-    </section>
-
-
-
-    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
-    	<div class="container">
-			<div class="row">
-				<div class="row d-flex align-items-stretch">
-				<!-- <div class="row d-flex"> -->
-					<div class="col-md-6 col-lg-5 d-flex">
-						<div class="img-about img d-flex align-items-stretch">
-							<div class="overlay">
-								<div class="row">
-									<div class="col-sm-6 col-md-5">
-									  <div class="about-img">
-										<img src="images/about-me.png" class="img-fluid rounded b-shadow-a" alt="">
-									  </div>
-									</div>
-									<!-- Details next to profile image -->
-									<div class="col-sm-6 col-md-7">
-									  <div class="about-info">
-										<p><span class="title-s">Name: </span> <span>Prabhakar Majji</span></p>
-										<p><span class="title-s">Job Role: </span> <span>Software Development Engineer</span></p>
-										<p><span class="title-s">Experience: </span> <span>3 Years 7 Months</span></p>
-										<p><span class="title-s">Address: </span> <span>Bellevue, WA, USA</span></p>
-									  </div>
-									</div>
-								  </div>
-
-								<div class="skill-mf">
-									<p class="title-s">Skills</p>
-									<span>Java Programming</span> <span class="pull-right">95%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>Distributed Systems</span> <span class="pull-right">85%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>Database Management</span> <span class="pull-right">90%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>Cloud Services</span> <span class="pull-right">85%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>Problem-Solving</span> <span class="pull-right">80%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
-						<div class="row justify-content-start pb-3">
-							<div class="col-md-12 heading-section ftco-animate">
-								
-								<h1 class="big">About</h1>
-								<h2 class="mb-4">About Me</h2>
-								
-								<p>Experienced Java software developer with a strong foundation in distributed systems, database management, and cloud services. Proficient in Java, C/C++, Python, JavaScript, TypeScript, and Kotlin, with expertise in building scalable backend microservices and developing cloud-based solutions on AWS. Proven track record in optimizing API performance, enhancing deployment efficiency, and leading cross-functional projects. Holds a Master's in Computer Science with a perfect GPA and significant industry experience at companies like GE Healthcare and Tata Consultancy Services. Skilled in problem-solving and dedicated to delivering high-quality software solutions.</p>
-								<ul class="about-info mt-4 px-md-0 px-2">
-									<li class="d-flex"><span>Profile:</span> <span>Computer Science &amp; Programming</span></li>
-									<li class="d-flex"><span>Domain:</span> <span>Software Development, Cloud Computing, Microservices, Web Development, Database &amp; DevOps</span></li>
-									<li class="d-flex"><span>Education:</span> <span>MS in Computer Science, USA</span></li>
-									<li class="d-flex"><span>Programming Languages and Frameworks:</span> <span>Java (Oracle Certified Java Programmer), C/C++, Python, JavaScript, TypeScript, Kotlin, HTML/CSS, Node.js, Express.js, ReactJS, Spring Boot, Android Development, Material-UI &amp; Hadoop</span></li>
-									<li class="d-flex"><span>Database and Cloud Technologies:</span> <span>PostgreSQL, MongoDB, MySQL, Firebase, T-SQL, AWS (AWS Certified Cloud Practitioner) &amp; Azure</span></li>
-									<li class="d-flex"><span>Development Tools and Methodologies:</span> <span>Git, JMeter, CI/CD, Docker, Agile, SCRUM, JIRA, VS Code, IntelliJ, Eclipse, Linux, Data Structures and Algorithms, Parallel Algorithms, Object Oriented Design, Design Patterns, MPI &amp; OpenMP</span></li>	
-								</ul>
-							</div>
-						</div>
-
-
-						<div class="counter-wrap ftco-animate d-flex mt-md-3">
-							<div class="text">
-								<p class="mb-4">
-									<span class="number" data-number="30">0</span> <span>+</span>
-									<span>&nbsp; Projects completed</span>
-								</p>
-								<p><a href="https://www.linkedin.com/in/prabhakarmajji/" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-    </section>
-
-
-
-	
-    <section class="ftco-section ftco-no-pb" id="resume-section">
-    	<div class="container">
-    		<div class="row justify-content-center pb-5">
-          <div class="col-md-10 heading-section text-center ftco-animate">
-          	<h1 class="big big-2">Resume</h1>
-            <h2 class="mb-4">Resume</h2>
-            <p>Experienced software developer with a Master's in Computer Science (4.0 GPA) and a Bachelor's in Civil Engineering (CGPA 9.1). Skilled in Java, C/C++, Python, JavaScript, TypeScript, and Kotlin. Proficient in PostgreSQL, MongoDB, MySQL, Firebase, T-SQL, Azure, and AWS. Experienced in building scalable backend microservices, developing cloud-based solutions, and optimizing API performance. Worked at GE Healthcare, Tata Consultancy Services, and NCR Corporation. Successfully implemented microservices, automated deployment processes, and led cross-functional projects. Developed impactful projects such as a home services web app and an Android e-wallet app. Proficient in using development tools like Git, JMeter, CI/CD, Docker, Agile, and SCRUM.</p>
-          </div>
-		  <div class="row justify-content-center pb-5">
-			<div class="col-md-10 text-center ftco-animate">
-				<p><a href="Prabhakar_Resume.pdf" class="btn btn-primary py-4 px-5">Download CV</a></p>
-			</div>
-		</div>
+                        </ul>
+                    </div><!--//job-desc-->
+                </div><!--//item-->
+                
+                <div class="item">
+                    <div class="work-place">
+                        <h3 class="place">Tata Consultancy Services</h3>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Bangalore, India</div>
+                    </div>
+                    <div class="job-meta">
+                        <div class="title">Software Developer</div>
+                        <div class="time">August.2020 - December.2022</div>
+                    </div><!--//job-meta-->
+                    <div class="job-desc">
+                        <p>TCS, a part of the Tata group, which is India's largest multinational business group in information technology (IT) services and consulting company with over 601,000 of the world's best-trained consultants in 54 countries</p> 
+                        <ul>
+                            
+                            <li>Developed scalable backend microservices with Node.js, Express.js, TypeScript, and MongoDB for the provider
+                                matchmaking system, optimizing the customer experience.</li>
+                            <li>Reduced critical API response times for the slot capacity service, achieving P99 and P95 times under 150ms and 50ms,
+                                respectively, down from around 350ms and 150ms.</li>
+                            <li>Migrated native Provider Android App screens to React Native using the in-house Orion framework, ensuring consistent
+                                UX across Android and iOS platforms, reducing deployment wait time by 45%.</li>
+                            <li>Developed graph-based algorithms within slot aggregator service, utilizing SpringBoot, to identify single points of failure
+                                in UI-connected components. Leveraged event-driven architecture (Kafka) to streamline user actions, resulting in a 70%
+                                reduction of vulnerable components.</li>
+                            <li>Engineered a dashboard for configuring provider calendar metrics at the city level, enabling informed business decisions.
+                                Integrated Airflow workflow to populate 1M data points in MongoDB for the dashboard.</li>
+                            <li>Implemented the Festival Management System (FMS) feature and seamlessly integrated it into the provider Android
+                                (Java/Kotlin)/iOS app and backend services. This enhancement enabled accurate prediction of provider availability
+                                during festive or holiday seasons, resulting in an 85% reduction in no-shows. This contribution significantly improved
+                                customer service and business operations.</li>
+                            <li>Automated the existing microservices deployment process by integrating services into the CI/CD deployment pipeline,
+                                leading to an impressive 84% boost in deployment efficiency. Leveraged Jenkins, Jira, and GitLab to successfully
+                                achieve this milestone.</li>
+                            
+                        </ul>
+                    </div><!--//job-desc-->
+                </div><!--//item-->
+                <div class="item">
+                    <div class="work-place">
+                        <h3 class="place">NCR Corporation</h3>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Hyderabad, India</div>
+                    </div>
+                    <div class="job-meta">
+                        <div class="title">Associate Software Engineer</div>
+                        <div class="time">July.2019 - August.2020</div>
+                    </div><!--//job-meta-->
+                    <div class="job-desc">
+                        <p>NCR Corporation is the fifth largest IT services firm in the world. Services provided by NCR include application services, business consulting, business process services, IT infrastructure services, IT outsourcing services, and systems integration services, among others</p> 
+                        <ul>
+                            
+                            <li>Developed robust web applications for financial banks using ReactJS and Spring Boot (Java) to create responsive and
+                                scalable user interfaces and backend services, achieving 100% test coverage.</li>
+                            <li>Led a team of interns in developing an organizational hiring platform from concept to deployment, utilizing ReactJS and
+                                Spring Boot (Java). The product satisfied employee onboarding needs and delivered substantial value.</li>
+                            <li>Optimized response time of critical backend APIs in banking applications from 180ms to 70ms through API profiling and
+                                optimization, and conducted load testing using JMeter.</li>
+                            
+                        </ul>
+                    </div><!--//job-desc-->
+                </div><!--//item-->
+                
+                <div class="item">
+                    <div class="work-place">
+                        <h3 class="place">KPMG</h3>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Hyderabad, India</div>
+                    </div>
+                    <div class="job-meta">
+                        <div class="title">Intern</div>
+                        <div class="time">May.2018 – June.2018 </div>
+                    </div><!--//job-meta-->
+                    <div class="job-desc">
+                        <p>Designed and developed POCs for low-code applications and workflows using Microsoft Power Suite for integrations between SharePoint, Outlook, Teams, and internal APIs.</p>
+                        <p>Technologies: Power Apps, Power Automate, Azure, Microsoft Teams, SharePoint, Power Virtual Agents </p>
+                    </div><!--//job-desc-->
+                </div><!--//item-->
+                
+                <div class="item">
+                    <div class="work-place">
+                        <h3 class="place">V R Siddhartha Engineering College</h3>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Vijayawada, India</div>
+                    </div>
+                    <div class="job-meta">
+                        <div class="title">Data Analyst</div>
+                        <div class="time">2017 - 2016</div>
+                    </div><!--//job-meta-->
+                    <div class="job-desc">
+                        <p>The main aim of this study is to utilise this proactive data along with reactive data retrieved from an integrated steel industry in building a model to predict the future incidents.Decision tree algorithms like C5.0, CART, CHAID, and ensemble techniques such as boosting have been implemented in order to predict the accidents from the proactive data.</p> 
+                    </div><!--//job-desc-->
+                </div><!--//item-->
+                
+                <div class="item">
+                    <div class="work-place">
+                        <h3 class="place">SPE - V R Siddhartha Engineering College</h3>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Vijayawada, India</div>
+                    </div>
+                    <div class="job-meta">
+                        <div class="title">Web Developer</div>
+                        <div class="time">2016- 2017</div>
+                    </div><!--//job-meta-->
+                    <div class="job-desc">
+                        <p>SEO to maximise website’s search engine performance.Optimising website for all multimedia platforms. Maintaining performance of existing client websites.Diagnosing and rectifying performance issues.Maintaining continuity throughout all websites both technically and creatively</p> 
+                    </div><!--//job-desc-->
+                </div><!--//item-->
+                
+            </div><!--//timeline-->
+            
+        </section><!--//section-->
         </div>
-
-	<section class="ftco-section ftco-no-pb" id="experience"></section>
-		<div class="row">
-			<h1 class="big-4">Experience</h1>
-			<div class="underline"></div>
-		</div>
-		<br>
-		<div class="row">
-				<div class="col-md-6">
-					<div class="resume-wrap ftco-animate">
-						<span class="date">January 2021-December 2022</span>
-						<h2>Full Stack Developer</h2>
-						<span class="position">SAP Labs, India</span>
-						<p class="mt-4">SAP Labs India is a leading global provider of enterprise software solutions and services, enhancing business operations through innovative technologies.
-							<ul>
-								<li>Developed single-page applications using Angular 11, enhancing user experience with advanced features like routing, services, and directives.</li>
-								<li>Built and optimized microservices using Spring Boot, Java 8 functionalities, and implemented robust security with Spring Security and Spring MVC.</li>
-								<li>Configured and deployed CI/CD pipelines using GitLab, Docker, and Kubernetes, automating the deployment of microservices on AWS Cloud.</li>
-								<li>Automated API Gateway configurations with AWS CloudFormation and Terraform, streamlining the development lifecycle and enhancing system efficiency.</li>
-								<li>Employed AWS Lambda, EC2, and S3 for seamless cloud integration and optimized application performance.</li>
-							</ul>
-						</p>						
-					</div>
-				</div>
-			
-				<div class="col-md-6">
-					<div class="resume-wrap ftco-animate">
-						<span class="date">August 2019-January 2021</span>
-						<h2>Java Developer</h2>
-						<span class="position">OpenText, India</span>
-						<p class="mt-4">OpenText India is a global leader in enterprise information management, providing software solutions that enable organizations to manage and leverage their data effectively.
-							<ul>
-								<li>Developed reusable Angular components and enhanced legacy code, improving the front-end framework's efficiency and user experience.</li>
-								<li>Designed user interfaces using React JS, Bootstrap, and JavaScript, and implemented backend functionality with Spring MVC and Hibernate.</li>
-								<li>Built and deployed a geo-based social network application using React JS, Spring Boot, and AWS services like EC2, S3, and CloudFormation.</li>
-								<li>Developed RESTful services and implemented complex transactions using Java 1.8 features, enhancing code quality and performance.</li>
-								<li>Managed CI/CD pipelines with Jenkins, Maven, and Git for continuous integration and streamlined deployments.</li>
-							</ul>
-						</p>						
-					</div>
-				</div>
-			</div>
-
-		<div class="row">
-			<h1 class="big-4">Internship</h1>
-			<div class="underline"></div>
-		</div>
-		<br>
-			<div class="row">
-				<div class="col-md-6">
-					<div class="resume-wrap ftco-animate">
-						<span class="date">May 2023-August 2023</span>
-						<h2>Software Developer Intern</h2>
-						<span class="position">GE HealthCare, USA</span>
-						<p class="mt-4">GE Healthcare is a leading global medical technology company specializing in imaging, monitoring, and diagnostic solutions. 
-							<ul>
-								<li>Built GEHC infrastructure on AWS, developed a converter for HL7V2 to FHIR using AWS Lambda.</li>
-								<li>Implemented infra as code solutions with AWS CDK, and set up a GitLab pipeline, boosting deployment efficiency by 85%.</li>
-								<li>Oversaw automated deployment processes for microservices and infrastructure, enhancing developer productivity.</li>
-							</ul>
-						</p>
-					</div>
-
-				</div>
-
-				<div class="col-md-6">
-					<div class="resume-wrap ftco-animate">
-						<span class="date">June 2018-December 2018</span>
-						<h2>Software Engineer Intern</h2>
-						<span class="position">KPMG, India</span>
-						<p class="mt-4">KPMG India is a leading professional services firm offering audit, tax, and advisory services to enhance business performance and drive growth. 
-							<ul>
-								<li>Designed and developed POCs for low-code applications using Microsoft Power Suite.</li>
-								<li>Integrated SharePoint, Outlook, Teams, and internal APIs.</li>
-								<li>Utilized Power Apps, Power Automate, Azure, and Power Virtual Agents for seamless workflows.</li>
-							</ul>
-						</p>
-					</div>
-				</div>
-			</div>
-
-		<br>
-		<br>
-
-    <section class="ftco-section ftco-no-pb" id="education"></section>
-		<div class="row">
-			<h1 class="big-4">Education</h1>
-			<div class="underline"></div>
-		</div>
-		<br>
-			<div class="row">
-    			<div class="col-md-6">
-    				<div class="resume-wrap ftco-animate">
-    					<span class="date">January 2023-May 2024</span>
-    					<h2>Master of Science in Computer Science</h2>
-    					<span class="position">Wichita State University, KS, USA</span>
-    					<p class="mt-4">Grade: 4.0/4.0.</p>
-    				</div>
-    			</div>
-
-    			<div class="col-md-6">
-    				<div class="resume-wrap ftco-animate">
-    					<span class="date">August 2015-May 2019</span>
-    					<h2>Bachelor of Technology in Civil Engineering</h2>
-    					<span class="position">Jawaharlal Nehru Technological University, Kakinada, India</span>
-    					<p class="mt-4">Grade: First class distinction.</p>
-    				</div>
-				</div>
-    		</div>
-    	</div>
-    </section>
-
-   
-
-    <section class="ftco-section" id="project-section">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <h1 class="big big-2">Projects</h1>
-            <h2 class="mb-4">Projects</h2>
-            <p>Below are the projects that highlight my proficiency in AI-driven solutions, data science, scalable web applications, advanced Java programming, and blockchain technology.</p>
-          </div>
         </div>
-        <div class="row d-flex">
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry justify-content-end">
-				<a href="https://github.com/prabhakar8179/BlueWave-master.git" class="block-20 zoom-effect" style="background-image: url('images/proj_4.jpg');">
-				</a>
-				<div class="text mt-3 float-right d-block">
-  
-				  <h3 class="heading"><a href="https://github.com/prabhakar8179/BlueWave-master.git">BlueWave: Advanced Java Solutions</a></h3>
-				  <p>A comprehensive Java-based project delivering cutting-edge software solutions using the BlueWave framework.</p>	
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry justify-content-end">
-              <a href="https://github.com/prabhakar8179/Recommender-System-main.git" class="block-20 zoom-effect" style="background-image: url('images/proj_2.jpg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
+        <section id="skills" class="skills-section section text-center">
+            <h2 class="section-title" style="color:#00BCD4;">Professional Skills</h2>
+            <div class="top-skills">
+                <h3 class="subtitle">Top Skills</h3>
+                <div class="row">
+                    <div class="item col-xs-12 col-sm-4 wow bounceInDown" >
+                        <div class="item-inner">
+                            <div class="chart-easy-pie text-center">
+                                <div class="chart-theme-1 chart" data-percent="93" style="color:#00a5bb;"><span>98</span>%</div>
+                            </div>
+                            <h4 class="skill-name" style="color:#00a5bb;">Java &amp; Spring Boot</h4>
+                            <div class="level">Expert</div>
+                            <div class="desc">
+                                A developer must be versatile in multiple languages and environments to satisify the needs of client. I myself find python useful in saving developer's time and java to save server time.  
+                            </div>
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+                    <div class="item col-xs-12 col-sm-4">
+                        <div class="item-inner">
+                            <div class="chart-easy-pie text-center">
+                                <div class="chart-theme-1 chart" data-percent="90" style="color:#00a5bb;"><span>90</span>%</div>
+                            </div>
+                            <h4 class="skill-name"  style="color:#00a5bb;">Algorithms &amp; Data Structures </h4>
+                            <div class="level">Expert</div>
+                            <div class="desc">
+                                 Generally, the craft of programming is the factoring of a set of requirements into a a set of algorithms and data structures.Code is easy, it's the logic behind the code that is complex.
+                            </div>
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+                    <div class="item col-xs-12 col-sm-4">
+                        <div class="item-inner">
+                            <div class="chart-easy-pie text-center">
+                                <div class="chart-theme-1 chart" data-percent="75" style="color:#00a5bb;"><span>86</span>%</div>
+                            </div>
+                            <h4 class="skill-name" style="color:#00a5bb;">Machine Learning</h4>
+                            <div class="level">Learning, </div>
+                            <div class="desc">
+                               It is the difference between being prepared or catching up . With the enormus amonts of data that is being created everyday , making sense of it is paramount to reduce the uncertainity of the future.
+                            </div>
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+                </div><!--//row-->
+            </div><!--//top-skills-->
+            
+            <div class="other-skills">
+                <h3 class="subtitle">Other Skills</h3
+                <div class="misc-skills" >
+                    <span class="skill-tag">Cassandra</span>                    
+                    <span class="skill-tag">MongoDB</span>                    
+                    <span class="skill-tag">Kafka</span>                    
+                    <span class="skill-tag">OAuth2</span>                    
+                    <br>                   
+                    <span class="skill-tag">Docker</span>                    
+                    <span class="skill-tag">Angular</span>                    
+                    <span class="skill-tag">SQL</span>                    
+                    <span class="skill-tag">System Design</span>                    
+                    <span class="skill-tag">Git</span>
 
-                <h3 class="heading"><a href="https://github.com/prabhakar8179/Recommender-System-main.git">RecoMaster: Intelligent Recommendation System</a></h3>
-                <p>A robust recommender system designed to personalize user experiences and improve content discovery.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry">
-              <a href="https://github.com/prabhakar8179/News_Aggregator_SpringBoot-master.git" class="block-20 zoom-effect" style="background-image: url('images/proj_3.jpg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
-
-                <h3 class="heading"><a href="https://github.com/prabhakar8179/News_Aggregator_SpringBoot-master.git">NewsFusion: Aggregated News Platform</a></h3>
-                <p>A scalable news aggregator built with Spring Boot, providing real-time news from various source.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-	<br>
-		<!-- added justify-content-center to center align the last two projects -->
-		<div class="row d-flex justify-content-center">  
-			<div class="col-md-4 d-flex ftco-animate">
-				<div class="blog-entry justify-content-end">
-					<a href="https://github.com/prabhakar8179/Malware_Classification_DeepLearning-main.git" class="block-20 zoom-effect" style="background-image: url('images/proj_1.jpg');">
-					</a>
-					<div class="text mt-3 float-right d-block">
-	  
-					  <h3 class="heading"><a href="https://github.com/prabhakar8179/Malware_Classification_DeepLearning-main.git">DeepGuard: AI-Powered Malware Detection</a></h3>
-					  <p>Utilizing deep learning techniques to classify and detect malware with high accuracy.</p>
-				</div>
-			  </div>
-			</div>
-			<div class="col-md-4 d-flex ftco-animate">
-				<div class="blog-entry justify-content-end">
-				<a href="https://github.com/prabhakar8179/arbitrage-bot-main.git" class="block-20 zoom-effect" style="background-image: url('images/proj_5.jpg');">
-				</a>
-				<div class="text mt-3 float-right d-block">
-  
-				  <h3 class="heading"><a href="https://github.com/prabhakar8179/arbitrage-bot-main.git">ArbiBot: Blockchain Arbitrage Automation</a></h3>
-				  <p>A smart contract-based arbitrage bot developed in Solidity to automate profitable trading opportunities on blockchain platforms.</p>
-				</div>
-			  </div>
-			</div>
-		 </div>
-	  </div>
-    </section>
-
-	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
-      <div class="container">
-		<div class="row d-md-flex align-items-center">
-          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18">
-              <div class="text">
-                <strong class="number" data-number="20">0</strong>
-                <span>Achievements</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18">
-              <div class="text">
-                <strong class="number" data-number="50+">0</strong>
-                <span>Projects</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18">
-              <div class="text">
-                <strong class="number" data-number="1000">0</strong>
-                <span>Mentored Students</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18">
-              <div class="text">
-                <strong class="number" data-number="500">0</strong>
-                <span>Cups of coffee</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-	
-	  <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
-			<!-- <div class="container"> -->
-				<div class="row justify-content-center">
-					<div class="col-md-7 ftco-animate text-center">
-						<h2>More projects on GitHub</h2>
-						<div class="heading"> <h4> Bits and bytes, the symphony that I orchestrate with each line of code.</h4>
-						<br>
-						<p><a href="https://github.com/prabhakar8179" class="btn btn-primary py-3 px-5">GitHub</a></p>
-						</div>
-					</div>
-				</div>
-			<!-- </div> -->
-		</div>
-	</section>
+                </div>
+            </div><!--//other-skills-->
+            
+        </section><!--//skills-section-->
 
 
+        <section id="education-section" class="education-section section">
+            <h2 class="section-title">Education</h2>
+            <div class="row">
+                <div class="item col-xs-12 col-sm-4 col-sm-offset-2">
+                    <div class="item-inner">
+                        <h3 class="degree">Bachelor of Technology</h3>
+                        <div class="education-body">
+                            <p>Velagapudi Rama Krishna Siddhartha Engineering College, Vijayawada, India</p>
+                            <p>GPA: 3.63/4.0</p>
+                        </div><!--//education-body-->
+                        <div class="time">August.2015 - May.2019</div>
+                        <div class="desc">
+                            Coming from a non-IT background Velagapudi Rama Krishna Siddhartha Engineering College helped me in pursuing my dream of a career in IT industry by providing an environment where cross fuctional projects are encouraged and people are given freedom,time and resources to develop themselves
+                        </div>
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+                <div class="item col-xs-12 col-sm-4">
+                    <div class="item-inner">
+                        <h3 class="degree">M.S in Computer Science</h3>
+                        <div class="education-body">
+                            <p>Wichita State University, Wichita, KS</p>
+                            <p>GPA: 4.0/4</p>
+                        </div><!--//education-body-->
+                        <div class="time">January.2023 - May.2024</div>
+                        <div class="desc">
+                            Stackroute is world-class programming bootcamp which lasts for three months that's designed to deliver Full stack programmers through rigourous training and real life projects.
+                        </div>
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+                
+            </div><!--//row-->
+        </section><!--//section-->
 
-    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
-      <div class="container">
-      	<div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <h1 class="big big-2">Contact</h1>
-            <h2 class="mb-4">Contact Me</h2>
-            <p>Below are the details to reach out to me!</p>
-          </div>
-        </div>
+        <section id="contact" class="section">
 
-        <div class="row d-flex contact-info mb-5">
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-map-signs"></span>
-          		</div>
-          		<h3 class="mb-4">Address</h3>
-	            <p>Bellevue, WA, USA</p>
-	          </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-phone2"></span>
-          		</div>
-          		<h3 class="mb-4">Contact Number</h3>
-	            <p><a href="tel://+14254357678">+ 1 (760)-981-7972</a></p>
-	          </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-paper-plane"></span>
-          		</div>
-          		<h3 class="mb-4">Email Address</h3>
-	            <p><a href="mailto:ratnaprabhakarmajji@gmail.com">ratnamajji817972@gmail.com</a></p>
-	          </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-globe"></span>
-          		</div>
-          		<h3 class="mb-4">Download Resume</h3>
-	            <p><a href="Prabhakar_Resume.pdf">resumelink</a></p>
-	          </div>
-          </div>
+            <div class="container">
 
-		  <div class="container">
-			<br>
-			<br>
-			<div class="row justify-content-center">
-				<div class="col-md-7 ftco-animate text-center">
-					<h2>Have a<span> Question?  </span> <a href="https://forms.gle/SFR1HeF9ESzbPtVG7">Click Here</a> </h2>
-				</div>
-			</div>
-				<br>
-					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
-					  <li class="ftco-animate normal-txt">Find me on  </li>
-					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/prabhakarmajji/"><span class="icon-linkedin"></span></a></li>
-					  <li class="ftco-animate"><a href="https://www.instagram.com/ratna_prabhakar_majji/"><span class="icon-instagram"></span></a></li>  
-					  <li class="ftco-animate"><a href="https://x.com/PrabhakarMajji"><span class="icon-twitter"></span></a></li>
-					  <li class="ftco-animate"><a href="https://www.facebook.com/prabhakar.majji.56"><span class="icon-facebook"></span></a></li>
-					  <li class="ftco-animate"><a href="https://www.reddit.com/user/Smart-Log6506/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button"><span class="icon-reddit"></span></a></li>
-					</ul>
-				<br>
-		   </div>
-   </div>
- </section>
+                <div class="row">
 
+                    <div class="col-md-6 ">
 
- 
-	
-    <footer class="ftco-footer ftco-section">
-		<div class="container">
-		  <div class="row">
-			<div class="col-md-12 text-center">
-  
-			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This website and its content are the exclusive property of the website owner and are protected by international copyright laws. No part of this website may be copied, reproduced, distributed, or transmitted in any form or by any means without the prior written permission of the website owner<a href="https://colorlib.com" target="_blank"></a>
-	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-			</div>
-		  </div>
-		</div>
-	  </footer>
+                        <h4><strong>Get in touch</strong></h4>
+                        <form id="contact-form"  method="post" role="form"  >
 
+                            <div class="ajax-hidden">
 
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+                                <div class="form-group">
+                                    <label class="sr-only" for="c_name">Name</label>
+                                    <input type="text" id="c_name" class="form-control" name="c_name" placeholder="Name">
+                                </div>
 
+                                <div class="form-group">
+                                    <label class="sr-only" for="c_email">Email address</label>
+                                    <input type="email" id="c_email" class="form-control" name="c_email" placeholder="E-mail">
+                                </div>
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  
-  <script src="js/main.js"></script>
-    
-  </body>
-</html>
+                                <div class="form-group">
+                                    <textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Your message"></textarea>
+                                </div>
+
+                                <button type="submit" class="btn btn-custom-1-inverse" style="border:2px solid white;" >
+                                    <i class="fa fa-bullhorn icon-before"></i> Send it
+                                </button>
+
+                            </div>
+
+                            <div id="ajax-response1" >Your query has been successfuly submitted</div>
+                            <div id="ajax-response2" >Please give your email-id!</div>
+                        </form>
+
+                    </div><!-- .col -->
+
+                    <div class="col-md-6 ">
+
+                        <h4>Additional info</h4>
+                        <p>Mobile: +1 (425) 435 7678</p>
+                        <p>Email-ID:ratnaprabhakarmajji@gmail.com</p>
+                        <h6>Please feel free to contact and I will get back to you at the earliest</h6>
+                        <hr>
+                        <h4>Follow Me On</h4>
+                        <ul class="icons-widget" >
+                            
+                        <li><a href="https://www.linkedin.com/in/prabhakarmajji/" ><i class="fa fa-linkedin fa-stack-4x fa-inverse"></i></a></li>
+                            
+                        </ul>
+
+                    </div><!-- .col -->
+
+                </div><!-- .row -->
+
+            </div><!-- .container -->
+
+        </section>
+
+        <!-- Contact section end -->
+
+    </body>
+</html>    
